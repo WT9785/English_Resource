@@ -56,7 +56,7 @@
             <dd><a href="#">英语句子</a></dd>
         </dl>
         <dl class="custom">
-            <dt onClick="changeImage()">客户管理<img src="../lib/images/left/select_xl01.png"></dt>
+            <dt onClick="changeImage()">真题在线<img src="../lib/images/left/select_xl01.png"></dt>
             <dd class="first_dd"><a href="#">客户管理</a></dd>
             <dd><a href="#">试用/成交客户管理</a></dd>
             <dd><a href="#">未成交客户管理</a></dd>
@@ -109,6 +109,12 @@
         </dl>
     </div>
     <div class="container" style="width: 80%">
+        <a class="btn btn-default" href="../Axure/index.html" role="button">首页</a>
+        <div style="border: dashed 1px black">
+            <p style="font-size: 15px;font-weight: bolder">
+               每个板块介绍，参考群里面的网站链接
+            </p>
+        </div>
         <h1>所有内容在这个div里面增加，菜单栏根据自己的模块功能更改</h1>
     </div>
 </div>
