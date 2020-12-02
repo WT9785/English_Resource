@@ -28,16 +28,17 @@
                 })
             })
         }
-            $(function () {
-                var toggle = true;
-                function changeImage() {
-                    if (toggle) {
-                        $("img").attr("src", "../lib/images/left/select_xl01.png")
-                        toggle = false;
-                    } else {
-                        $("img").attr("src", "../lib/images/left/select_xl.png")
-                        toggle = true;
-                    }
+        $(function () {
+            var toggle = true;
+
+            function changeImage() {
+                if (toggle) {
+                    $("img").attr("src", "../lib/images/left/select_xl01.png")
+                    toggle = false;
+                } else {
+                    $("img").attr("src", "../lib/images/left/select_xl.png")
+                    toggle = true;
+                }
             }
         });
     </script>
@@ -108,7 +109,7 @@
         </dl>
     </div>
     <div class="container" style="width: 80%">
-
+        <h1>所有内容在这个div里面增加，菜单栏根据自己的模块功能更改</h1>
     </div>
 </div>
 </body>
